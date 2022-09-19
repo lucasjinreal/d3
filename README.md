@@ -1,3 +1,51 @@
+# D3
+
+**D3** is a training framework forked from [detectron2](https://github.com/facebookresearch/detectron2). Detectron2 is a awesome and powerful project, I have been using detectron2 replicated many popular model such as YOLOv6, YOLOX etc. But I got some quite awful thing on it:
+
+- it doesn't have a epoch design, it makes users confused always;
+- it seems not quite maintained recently (due to some core developer leave);
+- it doesn't have more decent support on SOTA models like mmdetection;
+- it have some bugs that **still** didn't resolved!
+- lazyconfig system is not full used, YAML configuration is no longer suited for large-scale development on new models.
+
+So **d3** is here to help!
+
+In this version, some modification will be made:
+
+- [ ] Remove step design, using standared epoch design for training;
+- [ ] Merging some awesome technique from mmdetection;
+- [ ] Make new project forced using lazyconfig;
+- [ ] More powerful documentations.
+
+At last, **please noted that, d3 will always keep detectron2 main stream updated, which means all detectron2 new features will always merge into d3**.
+
+
+> d3 will not changing detectron2 unless becoming a stable release.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+origin README
+-----------------------------
 <img src=".github/Detectron2-Logo-Horz.svg" width="300" >
 
 <a href="https://opensource.facebook.com/support-ukraine">
