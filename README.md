@@ -1,8 +1,8 @@
 # D3
 
-**D3** is a training framework forked from [detectron2](https://github.com/facebookresearch/detectron2). Detectron2 is a awesome and powerful project, I have been using detectron2 replicated many popular model such as YOLOv6, YOLOX etc. But I got some quite awful thing on it:
+**D3** is a training framework forked from [detectron2](https://github.com/facebookresearch/detectron2). Detectron2 is an awesome and powerful project, I have been using detectron2 replicated many popular model such as YOLOv6, YOLOX etc. But I got some quite awful thing on it:
 
-- it doesn't have a epoch design, it makes users confused always;
+- it doesn't have an epoch design, it makes users confused always;
 - it seems not quite maintained recently (due to some core developer leave);
 - it doesn't have more decent support on SOTA models like mmdetection;
 - it have some bugs that **still** didn't resolved!
