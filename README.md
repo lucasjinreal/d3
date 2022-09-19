@@ -20,7 +20,7 @@ In this version, some modification will be made:
 At last, **please noted that, d3 will always keep detectron2 main stream updated, which means all detectron2 new features will always merge into d3**.
 
 
-> d3 will not changing detectron2 unless becoming a stable release.
+> d3 will not changing detectron2 package name unless becoming a stable release.
 
 
 
