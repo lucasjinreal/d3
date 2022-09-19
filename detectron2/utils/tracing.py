@@ -2,7 +2,7 @@ import inspect
 from typing import Union
 import torch
 from torch.fx._symbolic_trace import _orig_module_call
-from torch.fx._symbolic_trace import is_fx_tracing as is_fx_tracing_current
+# from torch.fx._symbolic_trace import is_fx_tracing as is_fx_tracing_current
 
 from detectron2.utils.env import TORCH_VERSION
 
