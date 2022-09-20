@@ -1,6 +1,6 @@
 # D3
 
-**D3** is a training framework forked from [detectron2](https://github.com/facebookresearch/detectron2). Detectron2 is an awesome and powerful project, I have been using detectron2 replicated many popular model such as YOLOv6, YOLOX etc. But I got some quite awful thing on it:
+**D3** is a training framework forked from [detectron2](https://github.com/facebookresearch/detectron2). Detectron2 is an awesome and powerful project, I have been using detectron2 replicated many popular model such as YOLOv6, YOLOX etc. But I got some quite awful things on it:
 
 - it doesn't have an epoch design, it makes users confused always;
 - it seems not quite maintained recently (due to some core developer leave);
@@ -10,17 +10,37 @@
 
 So **d3** is here to help!
 
-In this version, some modification will be made:
-
-- [ ] Remove step design, using standared epoch design for training;
-- [ ] Merging some awesome technique from mmdetection;
-- [ ] Make new project forced using lazyconfig;
-- [ ] More powerful documentations.
-
 At last, **please noted that, d3 will always keep detectron2 main stream updated, which means all detectron2 new features will always merge into d3**.
 
 
 > d3 will not changing detectron2 package name unless becoming a stable release.
+
+## Features
+
+Different from detectron2, we will make some further new feature based on it:
+
+- Semantic Segmentation Supported;
+- Add more backbone, such as **MobileOne, MobileVit, GhostNetv2, VAN, MSCAN** etc;
+- Remove unused files in detectron2, it's more light-weighted.
+- Less printing information for simplificatoin;
+- New YOLOX and YOLOv6 meta arch;
+- New YOLOX-Keypoints meta arch;
+
+
+
+## Install
+
+In addition to some requirements from detectron2, there is only 2 dependencies for constructing models:
+
+```
+pip install nbnb
+pip install alfred-py
+```
+
+It was verified `d3` works both on Ubuntu Linux, macOS, and Windows. Feel free to raise a question if you fail.
+
+
+
 
 
 
